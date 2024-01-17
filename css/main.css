@@ -2,7 +2,7 @@
 body,
 html {
   text-align: center;
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
   font-size: 1em;
 }
 
@@ -12,10 +12,29 @@ section {
 }
 
 h1 {
-  font-family: 'Righteous', cursive;
+  font-family: "Righteous", cursive;
   font-size: 2em;
 }
 
 h2 {
   font-size: 1.5em;
+}
+
+/*-------------MOBILE---------------*/
+@media (min-width: 375px) {
+  section {
+    color: #7b7d70;
+  }
+}
+/*-------------TaBLET---------------*/
+@media (min-width: 768px) {
+  section {
+    color: #02cbd2;
+  }
+}
+/*-------------DESKTOP---------------*/
+@media (min-width: 1200px) {
+  section {
+    color: #6e4b61;
+  }
 }
